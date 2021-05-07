@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'luckiest_guyregular';
+    src: url('luckiestguy-webfont.eot');
+    src: url('luckiestguy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('luckiestguy-webfont.woff2') format('woff2'),
+         url('luckiestguy-webfont.woff') format('woff'),
+         url('luckiestguy-webfont.ttf') format('truetype'),
+         url('luckiestguy-webfont.svg#luckiest_guyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

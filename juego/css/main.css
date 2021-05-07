@@ -7,6 +7,7 @@
 body{
   background-image: url(../img/fondo1.jpg);
   background-attachment: fixed;
+  font-family: luckiest_guyregular;
 }
 
 img{
@@ -24,7 +25,7 @@ img{
 }
 
 #volverJ{
- font-family: grobold;
+  font-family: luckiest_guyregular;
   display:block;
   width:110px;
   height:60px;
@@ -38,7 +39,7 @@ img{
 }
 
 #volverJ:hover{
- font-family: grobold;
+  font-family: luckiest_guyregular;
   display:block;
   width:110px;
   height:60px;
@@ -52,9 +53,9 @@ img{
 }
 
 #ins{
-   font-family: grobold;
+  font-family: luckiest_guyregular;
   display:block;
-  width:100px;
+  width:105px;
   height:60px;
   background-color: #1A2849;
   color: #fff;
@@ -66,9 +67,9 @@ img{
 }
 
 #ins:hover{
-   font-family: grobold;
+  font-family: luckiest_guyregular;
   display:block;
-  width:100px;
+  width:105px;
   height:60px;
   background-color: red;
   color: yellow;
@@ -92,7 +93,7 @@ img{
 }
 
 #boton_tirar{
-  font-family: grobold;
+  font-family: luckiest_guyregular;
   display:block;
   width:100px;
   height:60px;
@@ -105,7 +106,7 @@ img{
 }
 
 #boton_tirar:hover{
-  font-family: grobold;
+  font-family: luckiest_guyregular;
   display:block;
   width:100px;
   height:60px;
@@ -117,7 +118,6 @@ img{
   cursor:pointer;
 }
 .atras{
-  font-family: "grobold";
   color: #fff;
   background-color: #26EE90;
   width: 90px;
@@ -139,7 +139,6 @@ img{
 }
 
 .creditos1{
-  font-family: "grobold";
   color: #fff;
   background-color: #26EE90;
   width: 120px;
@@ -153,7 +152,6 @@ img{
 }
 
 .creditos1:hover{
-  font-family: "grobold";
   color: blue;
   background-color: #26EE90;
   width: 120px;
@@ -166,7 +164,6 @@ img{
   text-decoration: none;
 
 }
-
 
 .burbuja{ 
     border-radius: 50%;
