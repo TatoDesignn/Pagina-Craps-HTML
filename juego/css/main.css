@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/fondo1.jpg);
+  background-attachment: fixed;
+}
+
+img{
+  width: 550px;
+  height: 350px;
+  margin: auto;
+  display: block;
+}
+
+.dado{
+  background-image:url(https://i.pinimg.com/originals/0b/61/ba/0b61ba096406865f0e76a9b07e36dc69.png);
+  background-position:-803px;
+  width:157px;
+  height:156px;
+}
+
+#volverJ{
+ font-family: grobold;
+  display:block;
+  width:110px;
+  height:60px;
+  background-color: #1A2849;
+  color: #fff;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+  left: 700px;
+  top: 700px;
+}
+
+#volverJ:hover{
+ font-family: grobold;
+  display:block;
+  width:110px;
+  height:60px;
+  background-color: red;
+  color: yellow;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+  left: 700px;
+  top: 700px;
+}
+
+#ins{
+   font-family: grobold;
+  display:block;
+  width:100px;
+  height:60px;
+  background-color: #1A2849;
+  color: #fff;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+  left: 1070px;
+  top: 700px;
+}
+
+#ins:hover{
+   font-family: grobold;
+  display:block;
+  width:100px;
+  height:60px;
+  background-color: red;
+  color: yellow;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+  left: 1070px;
+  top: 700px;
+}
+
+#texto_1{
+	color: red;
+	text-align: center;
+
+}
+
+#contenedor_dados{
+  display:flex;
+  width:315px;
+  margin:0 auto;
+}
+
+#boton_tirar{
+  font-family: grobold;
+  display:block;
+  width:100px;
+  height:60px;
+  margin:10px auto;
+  background-color:#1A2849;
+  color:#fff;
+  border:0;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+#boton_tirar:hover{
+  font-family: grobold;
+  display:block;
+  width:100px;
+  height:60px;
+  margin:10px auto;
+  background-color: red;
+  color: yellow;
+  border:0;
+  border-radius:10px;
+  cursor:pointer;
+}
+.atras{
+  font-family: "grobold";
+  color: #fff;
+  background-color: #26EE90;
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.atras1{
+  color: #fff;
+  text-decoration: none;
+}
+
+.atras1:hover{
+  color: blue;
+}
+
+.creditos1{
+  font-family: "grobold";
+  color: #fff;
+  background-color: #26EE90;
+  width: 120px;
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  left: 1750px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.creditos1:hover{
+  font-family: "grobold";
+  color: blue;
+  background-color: #26EE90;
+  width: 120px;
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  left: 1750px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+
+.burbuja{ 
+    border-radius: 50%;
+    background: #fff;
+    opacity: -100;
+
+    position: absolute;
+    bottom:-150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+
+
+
