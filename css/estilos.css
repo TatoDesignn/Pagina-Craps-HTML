@@ -1,3 +1,10 @@
+@font-face{
+    font-family: AgencyFB;
+    src: url('fuentes/AgencyFB.tff') format('truetype');
+    font-family: grobold;
+    src: url('fuentes/grobold.tff') format('truetype');
+}
+
 *{
     margin: 0;
     padding: 0;
