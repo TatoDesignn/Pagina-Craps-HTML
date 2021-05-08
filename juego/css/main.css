@@ -7,7 +7,6 @@
 body{
   background-image: url(../img/fondo1.jpg);
   background-attachment: fixed;
-  font-family: luckiest_guyregular;
 }
 
 img{
@@ -130,15 +129,18 @@ img{
 }
 
 .atras1{
+  font-family: luckiest_guyregular;
   color: #fff;
   text-decoration: none;
 }
 
 .atras1:hover{
+  font-family: luckiest_guyregular;
   color: blue;
 }
 
 .creditos1{
+  font-family: luckiest_guyregular;
   color: #fff;
   background-color: #26EE90;
   width: 120px;
@@ -152,6 +154,7 @@ img{
 }
 
 .creditos1:hover{
+  font-family: luckiest_guyregular;
   color: blue;
   background-color: #26EE90;
   width: 120px;

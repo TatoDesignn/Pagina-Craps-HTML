@@ -1,3 +1,86 @@
 body{
-	background-image: 
+	background-color: black;
+}
+
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+#particles-js{
+	height: 100vh;
+	width: 100%;	
+	position: fixed;
+	z-index: -1;
+}
+
+.content h1 {
+	color: white;
+	position: relative;
+	top: 70px; 
+	left: 230px;
+	font-family: komika_axisregular;
+}
+
+.content2{
+	color: white;
+	position: relative;
+	top: -60px; 
+	left: 1090px;
+	font-family: komika_axisregular;
+}
+
+.atras1{
+  color: #fff;
+  background-color: #26EE90;
+  width: 2500px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  font-family:'Arial Rounded MT'; 
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.atras1:hover{
+  color: black;
+  background-color: green;
+  width: 2500px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  font-family:'Arial Rounded MT'; 
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.imagen1{
+	width: 600px;
+	height: 400px;
+	position: relative;
+	top: 100px;
+	left: 300px;
+	border-radius: 10px;
+}
+
+.imagen2{
+	width: 600px;
+	height: 400px;
+	position: relative;
+	top: 500px;
+	left: 500px;
+	border-radius: 10px;
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
