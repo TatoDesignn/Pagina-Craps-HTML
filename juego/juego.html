@@ -10,6 +10,11 @@
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
+	
+	<img src="img/E1.png" id="inicios">
+	<button onClick="siguiente()" id="siguiente1">Siguiente ➜</button>
+	<button onClick="listo()" id="listo1">Listo ✔️</button>
+	<img src="img/mOn.png" onclick="silenciar()" id="silenciar" onclick="silenciar()" >
 	<div class="⬅ atras">
 		<a href="../index.html" class="atras1">👈 Atras</a>
 	</div>
@@ -35,10 +40,15 @@
             <div class="burbuja"></div>
             <div class="burbuja"></div>
      </div>
+     	<audio src="../song/sganar.mp3" id="sonidoG"></audio>
+     	<audio src="../song/sperder.mp3" id="sonidoP"></audio>
+     	<audio src="../song/spunto.mp3" id="sonidoE"></audio>
+     	<audio src="../song/sprincipio.mp3" id="sonidoI"></audio>
+ 		<h1 id="text4">Turno: </h1><div id="puesto"></div>
+ 		<h1 id="text3">Objetivo: </h1> <div id="objetivo"></div>
      <div>
 	    <input type="button" value="Lanzar Dado" id="boton_tirar">
 	    <input type="button" value="Volver a Jugar" id="volverJ">
 	    <input type="button" value="Instrucciones" id="ins">
 	</div>
-</body>
 </html>

@@ -10,6 +10,15 @@ body {
   overflow-x: hidden;
 }
 
+h3{
+  text-decoration: none;
+  position: absolute;
+  top: 500px;  
+  left: 290px;
+  z-index: 2;
+  color: white;
+} 
+
 .header {
   height: 100vh;
   display: flex;

@@ -14,14 +14,140 @@ img{
   height: 350px;
   margin: auto;
   display: block;
+  z-index: 5;
+}
+
+#puesto{
+  font-family: luckiest_guyregular; 
+  color: yellow;
+  position: absolute;
+  top: 800px;
+  left: 1070px;
+  font-size: 24px;
+}
+
+#objetivo{
+  font-family: luckiest_guyregular; 
+  color: yellow;
+  position: absolute;
+  top: 800px;
+  left: 920px;
+  font-size: 24px;
+}
+
+#text3{
+    font-family: luckiest_guyregular; 
+  color: white;
+  position: absolute;
+  top: 800px;
+  left: 800px;
+  font-size: 24px;
+}
+
+#text4{
+  font-family: luckiest_guyregular; 
+  color: white;
+  position: absolute;
+  top: 800px;
+  left: 980px;
+  font-size: 24px;
 }
 
 .dado{
-  background-image:url(https://i.pinimg.com/originals/0b/61/ba/0b61ba096406865f0e76a9b07e36dc69.png);
+  background-image:url(../../img/dadospriv.png);
   background-position:-803px;
   width:157px;
   height:156px;
 }
+
+#siguiente1{
+
+  font-family: luckiest_guyregular;
+  display:block;
+  width:110px;
+  height:60px;
+  background-color: #1A2849;
+  color: #fff;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+  left: 1700px;
+  top: 850px;
+  z-index: 6;
+}
+
+#siguiente1:hover{
+
+  font-family: luckiest_guyregular;
+  display:block;
+  width:110px;
+  height:60px;
+  background-color: red;
+  color: yellow;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+  left: 1700px;
+  top: 850px;
+  z-index: 6;
+}
+
+#listo1{
+  font-family: luckiest_guyregular;
+  display:block;
+  width:110px;
+  height:60px;
+  background-color: #1A2849;
+  color: #fff;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+  left: 1550px;
+  top: 850px;
+  z-index: 7;
+}
+
+#listo1:hover {
+  font-family: luckiest_guyregular;
+  display:block;
+  width:110px;
+  height:60px;
+  background-color: red;
+  color: yellow;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+  left: 1550px;
+  top: 850px;
+  z-index: 7;
+}
+
+
+#inicios{
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}
+
+
+
+#silenciar{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 800px;
+  left: 1740px;
+}
+
+#silenciar:hover {
+  content: url("../img/mOff.png");
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 800px;
+  left: 1740px;
+}
+
 
 #volverJ{
   font-family: luckiest_guyregular;
@@ -35,6 +161,7 @@ img{
   position: absolute;
   left: 700px;
   top: 700px;
+  z-index: 2;
 }
 
 #volverJ:hover{
@@ -49,12 +176,13 @@ img{
   position: absolute;
   left: 700px;
   top: 700px;
+  z-index: 2;
 }
 
 #ins{
   font-family: luckiest_guyregular;
   display:block;
-  width:105px;
+  width:108px;
   height:60px;
   background-color: #1A2849;
   color: #fff;
@@ -63,12 +191,13 @@ img{
   position: absolute;
   left: 1070px;
   top: 700px;
+  z-index: 3;
 }
 
 #ins:hover{
   font-family: luckiest_guyregular;
   display:block;
-  width:105px;
+  width:108px;
   height:60px;
   background-color: red;
   color: yellow;
@@ -76,7 +205,8 @@ img{
   cursor:pointer;
   position: absolute;
   left: 1070px;
-  top: 700px;
+  top: 700px;     
+  z-index: 3;
 }
 
 #texto_1{
@@ -132,11 +262,13 @@ img{
   font-family: luckiest_guyregular;
   color: #fff;
   text-decoration: none;
+  z-index: 4;
 }
 
 .atras1:hover{
   font-family: luckiest_guyregular;
   color: blue;
+
 }
 
 .creditos1{
